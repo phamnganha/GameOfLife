@@ -2,31 +2,7 @@ Game of life in haskell for course project
 
 
 Description
-The game is based on cells stored in a two-dimensional board. Each cell is either empty or living. Below is the example of the board where 0 present living cell, . present empty cell:
-
-
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  0  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  0  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  0  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 
- .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  
-
+The game is based on cells stored in a two-dimensional board. Each cell is either empty or living. 
 
 Rules
 Given an initial configuration of the board, the next configuration is obtained by the following rules:
