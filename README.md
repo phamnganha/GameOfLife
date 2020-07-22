@@ -2,9 +2,11 @@ Game of life in haskell for course project
 
 
 Description
+
 The game is based on cells stored in a two-dimensional board. Each cell is either empty or living. 
 
 Rules
+
 Given an initial configuration of the board, the next configuration is obtained by the following rules:
 
 a living cell will survives if it has exactly 2 or 3 neighbouring living cells, 
