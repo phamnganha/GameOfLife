@@ -16,5 +16,7 @@ and an empty cell will be born as a living cell if it has exactly 3 neighbours l
 How to run 
 
 We compile the program by the command: ghci gameoflife.hs
+
 then we run it by the command: gameoflife example
+
 in this command, example is a list of living cells, and gameoflife is the main function. We can modify the example to see different running results
